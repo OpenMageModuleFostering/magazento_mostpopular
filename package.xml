@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>magazento_mostpopular</name>
-    <version>1.0.0</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
     <extends/>
     <summary>Most-viewed products in sidebars. Magento 1.4+ and configurable products support.</summary>
     <description>Most-viewed products in sidebars. Magento 1.4+ and configurable products support.</description>
-    <notes>1.0.0</notes>
+    <notes>1.0.3</notes>
     <authors><author><name>volgodark</name><user>volgodark</user><email>volgodark@gmail.com</email></author></authors>
-    <date>2012-07-24</date>
-    <time>11:28:58</time>
-    <contents><target name="magelocal"><dir name="Magazento"><file name="Mostpopular" hash=""/></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="magazento"><file name="mostpopular" hash=""/></dir></dir><dir name="layout"><file name="magazento_mostpopular.xml" hash=""/></dir><dir name="magazento"><file name="mostpopular" hash=""/></dir></dir></dir></dir><dir name="modules"><file name="Magazento_Mostpopular.xml" hash=""/></dir></target></contents>
+    <date>2012-12-27</date>
+    <time>09:29:09</time>
+    <contents><target name="magecommunity"><dir name="Magazento"><dir name="Mostpopular"><dir name="Block"><file name="Category.php" hash="0b354950125a74785dcfd70cb8a4a1a2"/><file name="Developer.php" hash="0060db475efbf5c7f8ff7b6ded82f610"/><file name="Home.php" hash="1defd5b11d7210712b9895c65043c43b"/></dir><dir name="Helper"><file name="Data.php" hash="266c830ec2e843a5b4d4cfde6bc4f998"/></dir><dir name="Model"><file name="Data.php" hash="0f1b7815894184c1bb576b82f88c9d4e"/></dir><dir name="etc"><file name="config.xml" hash="2d5e023bf3354ad1f0c7b1a7dc5c671f"/><file name="system.xml" hash="8cd6ebc23d619f13e87b0adbb9940f98"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="magazento"><dir name="mostpopular"><file name="category_left.phtml" hash="4356850a1008afc77461d7a4a227ee34"/><file name="category_right.phtml" hash="9300debb13101c3ee1f01c4b152a24d1"/><file name="home_left.phtml" hash="7a6671bc0e33fc1830f674bad68beb96"/><file name="home_right.phtml" hash="a13026be00a88fe0a099e94de62daa0c"/><file name="magazento.phtml" hash="2afc1a6fc5628b9732c73ea19c3b4d1c"/></dir></dir></dir><dir name="layout"><file name="magazento_mostpopular.xml" hash="af4ce20ed55cb38589183f72d4832204"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magazento_Mostpopular.xml" hash="103d39be33285a6c139f1821897da9a1"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="magazento"><dir name="mostpopular"><file name="logo_onecheckout.jpg" hash="cf71a3d20cf06abaf99521651c2fe3d1"/><file name="logo_pdf.jpg" hash="5a0d745372115da1d61168e2529c0c0d"/><file name="logo_sitemap.jpg" hash="937495eec93cb1640b6244bff4cb31a2"/><file name="menu_box.jpg" hash="e76e4c6b62b096ca87175eb0f5270062"/><file name="promo.jpg" hash="88520d456df68c98130433b5184b8e7f"/><file name="style.css" hash="c7e7107bc471cab84bed96e639766917"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
