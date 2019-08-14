@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>magazento_mostpopular</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Most-viewed products in sidebars. Magento 1.4+ and configurable products support.</summary>
+    <description>Most-viewed products in sidebars. Magento 1.4+ and configurable products support.</description>
+    <notes>1.0.0</notes>
+    <authors><author><name>volgodark</name><user>volgodark</user><email>volgodark@gmail.com</email></author></authors>
+    <date>2012-07-24</date>
+    <time>11:28:58</time>
+    <contents><target name="magelocal"><dir name="Magazento"><file name="Mostpopular" hash=""/></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="magazento"><file name="mostpopular" hash=""/></dir></dir><dir name="layout"><file name="magazento_mostpopular.xml" hash=""/></dir><dir name="magazento"><file name="mostpopular" hash=""/></dir></dir></dir></dir><dir name="modules"><file name="Magazento_Mostpopular.xml" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
