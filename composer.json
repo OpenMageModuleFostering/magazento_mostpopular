@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/magazento_mostpopular",
+    "name": "OpenMageModuleFostering\/magazento_mostpopular",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Most-viewed products in sidebars. Magento 1.4+ and configurable products support.",
     "authors": [
-    {
-        "name": "volgodark",
-        "email": "volgodark@gmail.com"
-    }
-],
+        {
+            "name": "volgodark",
+            "email": "volgodark@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
